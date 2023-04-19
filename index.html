@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wether</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  </head>
+  <body>
+      <div class="total">
+
+        <header>
+
+          <div class="searchCity">
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <div class="form__group">
+              <input type="text" class="form__input" id="name" placeholder="Enter the city" required="" />
+              <label for="name" class="form__label" id="cityLabel">Enter the city</label>
+            </div>
+            <img src="./public/imagine/svg/search.svg" class="search">
+          </div>
+
+        </header>
+
+        <div class="basedInformation"></div>
+
+
+        <footer>
+ <!-- тут доп інфа за сьогодні -->
+          <div class="minInfo"></div> 
+
+ <!-- а тут за некст дні -->
+          <div class="swiper mySwiper" id="totalSwiper"> 
+
+            <div class="swiper-wrapper">
+              <!-- <div id="dayOne" class="swiper-slide"></div>
+              <div id="dayTwo" class="swiper-slide"></div>
+              <div id="dayThree" class="swiper-slide"></div>
+              <div id="dayFour" class="swiper-slide"></div>
+              <div id="dayFive" class="swiper-slide"></div> -->
+            </div>
+  
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+  
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <script src="./public/js/swiper.js"></script>
+  
+          </div>
+
+        </footer>
+
+
+      
+
+
+
+    <script type="module" src="/public/js/main.js"></script>
+</html>
