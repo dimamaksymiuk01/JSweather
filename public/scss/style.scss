@@ -3,11 +3,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    // background-image: url("./public/imagine/jpeg/backgr.jpeg");
-    // background-repeat: no-repeat;
-    // background-position: center;
-    // background-size: cover;
-    // overflow: hidden;
     background: linear-gradient(to bottom, #a8e2ff, #c5f0ff, #ffffff);
     padding: 5px;
     height: 100%;
@@ -24,13 +19,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    // border: 1px solid;
     header {
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
-        // gap: 80px;
         .searchCity {
             display: flex;
             align-items: center;
@@ -49,14 +42,7 @@ body {
         height: clamp(16.875rem, 15.057rem + 9.09vw, 21.875rem);
         border-radius: 20px;
         font-family: 'Space Mono', monospace;        
-        // background: linear-gradient(to bottom, #c1ebff, #d6f4fe, #cbf4fd);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        overflow: hidden;
-        // border: 1px solid;
-        background-image: url("./imagine/jpeg/pibig.png");
-
+        background: linear-gradient(to bottom, #c1ebff, #d6f4fe, #cbf4fd);
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -136,8 +122,7 @@ footer {
         flex-wrap: wrap;
         }
     .minInfo {
-        // background-color: red;
-        // border: 1px solid;
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;

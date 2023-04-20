@@ -1,6 +1,5 @@
 import moment from "moment";
 import {createInfoToday} from "./createInfoToday";
-// import { loading } from "./loader";
 
 const search = document.querySelector('.search');
 const inpCity = document.querySelector('#name');
@@ -14,13 +13,11 @@ const defaultErrorMessage = 'Помилка: не вдалося отримат�
 
 async function wetherOBJ(url) {
   try {
-    // loading (true);
     const response = await fetch(url);
     const data = await response.json();
     createInfoToday(data);
     createNextDay(data);
     console.log(data);
-    // loading (false)
   } catch (error) {
     console.log('Введіть коректне місто');
     console.error(error);
